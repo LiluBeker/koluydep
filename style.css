@@ -1,0 +1,186 @@
+ * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Indie Flower', cursive;
+}
+a{
+    text-decoration: none;
+}
+li{
+    font-family: 'Baloo Bhai', cursive;
+}
+#wrapper{
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 5%;
+   
+}
+header{
+    text-align: center;
+    display: inline-block;
+    padding: 0px 0 5px 0;
+    width: 100%;
+    background-color: gray;
+}
+header h1{
+    font-family: 'Indie Flower', cursive;
+    margin: 15px 0;
+    padding: 5px;
+    font-size: 2.75em;
+    font-weight: bold;
+    line-height: 0.8em;
+}
+header h1{
+    margin: -5px 0  0;
+    font-size: 1.75em;
+    font-weight: normal;
+}
+nav{
+    text-align: center;
+    padding: 10px 0;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+  
+}
+nav ul{
+    list-style: none;
+    margin: 0 10px;
+    padding: 0;
+}
+nav a{
+   font-weight: 80%; 
+padding: 15px 10px;
+}
+nav li{
+    display: inline-block;
+}
+img{
+    max-width: 100%;
+}
+#gallery{
+    margin-top: 300px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#gallery li{
+    display: inline-block;
+    width: 43%;
+    margin: 2.5%;
+    background-color: #f5f5f5;
+    color: #bdc3c7; 
+}
+#gallery li a p{
+    margin:0;
+    padding:5%;
+    font-size: 0.75em;
+    color:#bdc3c7;
+}
+
+footer {
+    clear: both;
+   
+}
+
+footer ul {
+    text-align: center;
+}
+
+footer ul li {
+    display: inline-block;
+    margin: 10px;
+}
+
+.icon {
+    color: black;
+    font-size: 20px;
+}
+.active{
+    color: red !important;
+}
+a:visited{
+    color: blue;
+}
+
+.block1, .block2{
+    display: inline-block;
+    vertical-align: top;
+    width: 68%;
+    margin-top:5%;
+    margin-bottom: 5%;
+      
+}
+.block1{
+    width: 30%;
+    text-align: center;
+}
+.block1 img{
+    border-radius:50%;
+    width: 200px;
+    height: 200px;
+}
+.block2 p{
+    line-height: 1.5;
+}
+.blue{
+    color: blue;
+}
+
+
+nav{
+    width: 100%;
+    background-color: black;
+    top: 0;
+}
+
+
+/* MEDIA*/
+@media screen and (max-width:600px){
+    #gallery li {
+        display: block;
+        width: 100%;
+    }
+}
+@media screen and (max-width:570px){
+    .block1, .block2{
+        display: block;
+        width: 100%;
+        text-align: center; 
+    }
+}
+    
+@media screen and  (max-width:400px){
+    nav li{
+        display: block;
+    }
+    footer ul li{
+        display: block;
+    }
+}
+
+#film, #anime, #serials{
+        max-width: 100%;
+        padding-left: 20%;
+        padding-right: 20%;}
+
+#film, #anime, #serials{
+    height: 200px;
+}
+nav {
+    position: sticky;
+}
+#button{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 40px;
+    right: 30px;
+    }
+i{
+        color: black;
+        font-size: 100px;
+    }
